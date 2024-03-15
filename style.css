@@ -1,0 +1,96 @@
+/****************** Font **************************/
+h2 {
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+    font-size: 3rem;
+  }
+  
+  h3 {
+    font-family: 'Playfair Display', serif;
+    font-size: 2rem;
+  }
+
+  /****************** Parallax effect **************************/
+  .hero-section {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  /****************** Container **************************/
+  .top-container {
+    padding-top: 70px;
+    border: solid 3px darkgrey;
+    margin-top: 20px;
+  }
+  
+  /****************** Bootstrap 5 Modify **************************/
+  .navbar {
+    padding: 0;
+  }
+  
+  /****************** Laptop User **************************/
+  @media screen and (min-width: 992px) {
+    .top-container,
+    .middle-container,
+    .bottom-container {
+      padding-left: 100px;
+      padding-right: 100px;
+    }
+  }
+  .navbar {
+    padding: 0;
+    background-color: white !important; /* Change navbar background color to white */
+    height: 55px;
+  }
+  .navbar-nav .nav-link,
+  .navbar-brand {
+    color: black !important; /* Change text color to black */
+  }
+  .navbar-brand {
+    font-family:'Herr Von Muellerhoff', cursive;
+    font-size: 200%;
+  }
+  .nav-item {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 150%;
+    color: lightslategray;
+    margin: 0 20px;
+    font-size: 20px;
+  }
+
+  .display-1 {
+    font-size: 6rem;
+  }
+  
+  .cursive-font {
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+  }
+
+  .container-lg {
+    margin-bottom: 50px;
+    margin-top: 90px;
+  }
+  
+  .col-lg-6 {
+    margin-bottom: 77px;
+  }
+  .info {
+    margin-top: 150px;
+  }
+
+  #about .col-lg-6 img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    border-radius: 20%; /* Make the corners round to create a circular shape */
+    overflow: hidden; /* Hide any content outside the border radius */
+  }
+  .move-up {
+    font-size: 25px;
+  }
+
+
+
